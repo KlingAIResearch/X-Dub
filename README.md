@@ -33,7 +33,9 @@
     <a href="https://hjrphoebus.github.io/X-Dub/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
     <a href="https://github.com/KlingAIResearch/X-Dub" target="_blank"><img src="https://img.shields.io/github/stars/KlingAIResearch/X-Dub?style=social" alt="GitHub stars"></a>
   </p>
-  <p><em>Hero demo placeholder: <code>assets/showcase/hero.mp4</code></em></p>
+  
+https://github.com/user-attachments/assets/5b2d3fab-0de8-4682-9b95-36c11dfae3f5
+
   <p>🔥 For more results, visit our <a href="https://hjrphoebus.github.io/X-Dub/" target="_blank"><strong>homepage</strong></a> 🔥</p>
 </div>
 
@@ -49,37 +51,35 @@ This repository contains the official PyTorch implementation of **X-Dub**, intro
 
 Due to company policy, we cannot open-source the internal model used in the paper. This repository instead releases a migrated public X-Dub (Wan-5B) version based on Wan2.2-TI2V-5B. In our extensive experiments, X-Dub (Wan-5B) can also generate satisfying lip-synced results broadly aligned with the internal version X-Dub (internal-1B):
 
-<table>
-  <tr>
-    <td><code>assets/showcase/results/result_01.mp4</code></td>
-    <td><code>assets/showcase/results/result_02.mp4</code></td>
-  </tr>
-  <tr>
-    <td><code>assets/showcase/results/result_03.mp4</code></td>
-    <td><code>assets/showcase/results/result_04.mp4</code></td>
-  </tr>
-  <tr>
-    <td><code>assets/showcase/results/result_05.mp4</code></td>
-    <td><code>assets/showcase/results/result_06.mp4</code></td>
-  </tr>
-</table>
+<details>
+<summary>More qualitative results of X-Dub (Wan-5B)</summary>
+    
+https://github.com/user-attachments/assets/b1105660-dc26-46f9-b34a-df6d8b08c05e
+
+https://github.com/user-attachments/assets/241330b5-3ec2-4c04-a414-0f570551a50a
+
+https://github.com/user-attachments/assets/2b705f7f-9461-48db-833c-0dd63d079da3
+
+https://github.com/user-attachments/assets/c254e450-ce65-45df-a3a5-900387b081c1
+
+</details>
+
 
 We still observe some differences in the current public release.
 Compared with the internal version, X-Dub (Wan-5B) shows the following practical differences:
 
-1. Better generalization to non-human characters such as cartoons, animated roles, and animals.
-2. Slightly weaker temporal stability, with occasional flickering.
-3. Slightly weaker subject consistency, including possible identity drift or color drift.
-4. Occasional severe noisy frames in a small portion of cases (~2%).
-5. Roughly 2× slower inference without acceleration strategies.
+- Better generalization to non-human characters such as cartoons, animated roles, and animals.
+- Slightly weaker temporal stability, with occasional flickering.
+- Slightly weaker subject consistency, including possible identity drift or color drift.
+- Occasional severe noisy frames in a small portion of cases (~2%).
+- Roughly 2× slower inference without acceleration strategies.
 
-Here are some failure cases:
-<table>
-  <tr>
-    <td><code>assets/showcase/failures/failure_01.mp4</code></td>
-    <td><code>assets/showcase/failures/failure_02.mp4</code></td>
-  </tr>
-</table>
+<details>
+<summary>Some failure cases of X-Dub (Wan-5B)</summary>
+    
+https://github.com/user-attachments/assets/f9c0a303-135a-4261-8000-ea263ea41dd5
+
+</details>
 
 These gaps likely come from both the Wan backbone and the current implementation. Wan2.2-TI2V-5B generalizes better, but can be less temporally stable and may introduce texture or color drift. The final quality also depends on checkpoint selection, CFG scales, and cropping strategy. We are still trying to find the best implementation strategy.
 
