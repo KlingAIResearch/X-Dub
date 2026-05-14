@@ -209,7 +209,7 @@ The inference pipeline supports arbitrary-size input videos and performs online 
 
 
 ## ⚖️ Ethical Considerations
-This work can be misused for identity impersonation or deceptive synthetic media. We support clear labeling of AI-generated content and encourage further work on reliable detection methods. All models and materials in this repository are intended for academic research and technical demonstration only.
+This work can be misused for identity impersonation or deceptive synthetic media. We support clear labeling of AI-generated content and encourage further work on reliable detection methods.
 
 If you have questions, please contact: `hexu18@mails.tsinghua.edu.cn`
 
