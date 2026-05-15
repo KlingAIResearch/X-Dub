@@ -43,7 +43,8 @@ https://github.com/user-attachments/assets/5b2d3fab-0de8-4682-9b95-36c11dfae3f5
 </div>
 
 
-## 🔥 Updates
+## 📰 News
+- **`2026/05/15`**: 🎉 X-Dub has been accepted to **ICML 2026**. See you in Seoul!
 - **`2026/03/19`**: 🔥 We release the [inference code](#3--inference) and [pretrained weights](https://huggingface.co/KlingTeam/X-Dub) for the public Wan-based X-Dub release.
 - **`2025/12/31`**: 🔥 We release the paper and project homepage: [paper](https://arxiv.org/abs/2512.25066) | [homepage](https://hjrphoebus.github.io/X-Dub/).
 
