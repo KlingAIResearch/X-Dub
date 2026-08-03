@@ -209,6 +209,12 @@ The inference pipeline supports arbitrary-size input videos and performs online 
 - [ ] Inference acceleration.
 
 
+## 🔌 Community Integrations
+The following community-maintained projects provide additional ways to run X-Dub:
+
+- [ComfyUI X-Dub](https://github.com/DarkNoah/comfyui-x-dub) — ComfyUI custom nodes for X-Dub with native video/audio inputs, standard VAE integration, and an isolated runtime.
+
+
 ## ⚖️ Ethical Considerations
 This work can be misused for identity impersonation or deceptive synthetic media. We support clear labeling of AI-generated content and encourage further work on reliable detection methods.
 
